@@ -1,5 +1,5 @@
 """
-File: training.py
+File: testing.py
 Created on 2025-12-07
 Description:
     This script performs 5-fold testing prediction with YOLOv8.
