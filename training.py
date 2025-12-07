@@ -1,3 +1,11 @@
+"""
+File: training.py
+Created on 2025-12-07
+Description:
+    This script performs 5-fold cross-validation training for YOLOv8.
+    using patient-level splits for AI-CUP 2025.
+@Author: 李云揚 、 賴瑾蓉 、 蔡宜臻
+"""
 import os
 from pathlib import Path
 import json
