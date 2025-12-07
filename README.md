@@ -1,4 +1,4 @@
-# AI-CUP 2025 – YOLOv8 五摺交叉驗證訓練與加權框融合 (WBF) 管線
+# AI-CUP 2025 – YOLOv8 五摺交叉驗證訓練與加權框融合 (WBF) 策略實作原始程式碼
 # Group 9580
 
 本專案實作了完整的 **5-Fold Cross-Validation (交叉驗證)** 訓練與推論流程，使用 **YOLOv8** 模型進行物件偵測，並透過 **Weighted Box Fusion (WBF)** 將五個摺訓練結果融合為最終輸出。
