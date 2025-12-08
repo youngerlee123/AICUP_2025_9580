@@ -9,6 +9,7 @@
 
 ```
 AI-CUP-2025_9580/
+├─ data_moving.py           # 進行資料的前處理、整理與紀錄以利後續訓練
 ├─ training.py              # 進行5-Fold CrossValidation訓練的主程式
 ├─ testing.py               # 使用各最佳權重對測試集進行預測
 ├─ WBF_submissions.py       # 將五個預測結果進行加權框融合 (WBF)
@@ -24,7 +25,7 @@ AI-CUP-2025_9580/
 
 ---
 
-## 整體流程說明
+## 訓練流程說明
 
 ### 1. 5-Fold CrossValidation模型訓練 (`training.py`)
 此程式以病人為單位，進行5-Fold交叉驗證，且確保不同Fold的病人資料互不重疊，盡可能的讓模型學習各種不同的情況。
