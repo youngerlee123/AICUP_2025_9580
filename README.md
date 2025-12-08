@@ -120,5 +120,5 @@ pip install ultralytics ensemble-boxes tqdm numpy
 
 ---
 
-作者：李云揚 、 賴瑾蓉 、 蔡宜臻  
+作者：賴瑾蓉 、 李云揚 、 蔡宜臻  
 更新日期：2025/12/07
