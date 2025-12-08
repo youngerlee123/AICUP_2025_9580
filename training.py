@@ -14,8 +14,8 @@ from ultralytics import YOLO
 
 # --- 參數設定 ---
 K_FOLDS = 5
-PATIENT_MAP_FILE = Path("AICUP_2025_9580/patient_map.json")
-LABELS_DIR = Path("AICUP_2025_9580/labels")
+PATIENT_MAP_FILE = Path("AICUP_2025_9580/new_dataset/patient_map.json")
+LABELS_DIR = Path("AICUP_2025_9580/new_dataset/labels")
 SPLITS_DIR = Path("AICUP_2025_9580/kfold_splits") # 儲存 .txt 和 .yaml 的地方
 PROJECT_NAME = "YOLOv8s_5Fold_CV"
 # --------------------
